@@ -1,0 +1,26 @@
+.story {
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 18vh;
+  height: 27vh;
+  box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+  border-radius: 2vh;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  margin: 1vh;
+}
+.story:hover {
+  transform: scale(1.07);
+}
+.story__avatar {
+  margin: 2vh;
+  border: 0.5vh solid rgb(241, 88, 180);
+}
+.story h4 {
+  position: absolute;
+  bottom: 2vh;
+  left: 2vh;
+  color: rgb(211, 220, 227);;
+}

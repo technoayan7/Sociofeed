@@ -1,0 +1,6 @@
+.sidebar {
+  margin-top: 7.5vh;
+  padding: 5vh 1.5vh;
+  flex: 0.3;
+  position: fixed;
+}

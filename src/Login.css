@@ -1,0 +1,30 @@
+.login {
+  display: flex;
+  /* place-items: center; */
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+  gap: 1rem;
+}
+.login div img {
+  /* object-fit: contain; */
+  height: 300px;
+}
+
+.login button {
+  width: 300px;
+  text-transform: none;
+  background-color: rgb(255, 38, 168);
+  border: 1px solid #2e81f4;
+  color: #eff2f5;
+  font-size: 16px;
+}
+.login button:hover {
+  background-color: #fff;
+  color: rgb(255, 38, 168);
+}
+.login div {
+  display: flex;
+  flex-direction: column;
+}

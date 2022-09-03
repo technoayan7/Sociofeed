@@ -1,0 +1,79 @@
+.messageSender {
+  display: flex;
+  margin-top: 5vh;
+  flex: 0.8;
+  justify-content: center;
+  flex-direction: column;
+  background: #242526;
+  border-radius: 2vh;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+  width: 90vh;
+}
+
+.messageSender__top {
+  display: flex;
+  border-bottom: 1px solid #eff2f5;
+  padding-bottom: 3vh;
+  padding: 2vh;
+  color: aliceblue;
+}
+
+.messageSender__top form {
+  flex: 1;
+  display: flex;
+ 
+}
+
+.messageSender__top form input {
+  display: flex;
+  outline-width: 1;
+  border: none;
+  padding: 1vh 2vh;
+  margin: 0 2vh;
+  border-radius: 50vh;
+  color: aliceblue;
+  background: #3a3b3c;
+}
+
+.messageSender__top form button {
+  display: none;
+}
+
+.messageSender__input {
+  flex: 1;
+}
+
+.messageSender__bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.messageSender__option {
+  padding: 3vh;
+  display: flex;
+  align-items: center;
+  color: rgb(211, 220, 227);;
+  transition: 0.5s;
+  margin: 1vh;
+  cursor: pointer;
+}
+
+.messageSender__option h3 {
+  font-size: medium;
+  margin-left: 1vh;
+}
+
+.messageSender__option:hover {
+  background: #3a3b3c;
+  border-radius: 3vh;
+}
+
+::placeholder {
+  color: rgb(171, 178, 185);
+  opacity: 1;
+  /* Firefox */
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color:aliceblue;
+}
